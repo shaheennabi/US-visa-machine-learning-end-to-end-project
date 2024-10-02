@@ -6,3 +6,4 @@
 
 - we will be using modular coding practices like design pattern to make it unique
 - This is a machine learning project
+- it's open for everyone
