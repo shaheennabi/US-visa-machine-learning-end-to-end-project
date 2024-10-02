@@ -5,3 +5,4 @@
 - The US Visa is the problem satement 
 
 - we will be using modular coding practices like design pattern to make it unique
+- This is a machine learning project
