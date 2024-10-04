@@ -1,5 +1,5 @@
 import os
-from datetime import datetime
+from datetime import date
 
 
 DATABASE_NAME = "us_visa_project"
@@ -19,12 +19,10 @@ MODEL_FILE_NAME = "model.pkl"
 
 
 
-TARGET_COLUMN = "case studies"
-CURRENT_YEAR = datetime.today().year
-PREPROCESSING_OBJECT_FILE_NAME = "preprocessing.pkl"
+TARGET_COLUMN = "case_status"
+CURRENT_YEAR = date.today().year
+PREPROCSSING_OBJECT_FILE_NAME = "preprocessing.pkl"
 SCHEMA_FILE_PATH = os.path.join("config", "schema.yaml")
-
-
 
 
 
@@ -54,3 +52,6 @@ Data Transformation ralated constant start with DATA_TRANSFORMATION VAR NAME
 DATA_TRANSFORMATION_DIR_NAME: str = "data_transformation"
 DATA_TRANSFORMATION_TRANSFORMED_DATA_DIR: str = "transformed"
 DATA_TRANSFORMATION_TRANSFORMED_OBJECT_DIR: str = "transformed_object"
+
+
+
