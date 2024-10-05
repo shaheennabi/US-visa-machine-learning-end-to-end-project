@@ -4,23 +4,8 @@ In this project we have implemented end-to-end machine learning project named: U
 
 
 
-
-## Workflow:
-
-1. constants
-2. entity
-3. components
-4. pipeline
-5. Main file
-
-
-
-### Export the  environment (git bash)
-
-
-
 # If you want to run It  
-### Export the  environment variable
+### Export the  environment variable(git bash)
 ```bash
 conda create -n visa python=3.8 -y
 
@@ -45,7 +30,7 @@ After creating project template
 
 ## 2. Create IAM user for deployment
 
-	#with specific access
+With specific access
 
 	1. EC2 access : It is virtual machine
 
@@ -66,15 +51,15 @@ After creating project template
 
 * Policy:
 
-	1. AmazonEC2ContainerRegistryFullAccess
+	* AmazonEC2ContainerRegistryFullAccess
 
-	2. AmazonEC2FullAccess
+	* AmazonEC2FullAccess
 
-    3. AWSS3BucketFullAccess
+    * AWSS3BucketFullAccess
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: example: 31586523395366.dkr.ecr.us-east-1.amazonaws.com/visarepo
+    - (example) Save the URI:  31586523395366.dkr.ecr.us-east-1.amazonaws.com/visarepo
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
@@ -82,7 +67,7 @@ After creating project template
 ## 5. Open EC2 and Install docker in EC2 Machine:
 	
 	
-* Copy the below command one-by-one and execute on EC2 
+* Copy the below command one-by-one and execute on EC2 Terminal
 
 ```bash
 sudo apt-get update -y
@@ -110,12 +95,11 @@ sudo usermod -aG docker ubuntu
 newgrp docker
 ```
 
-
-	newgrp docker
 	
 # 6. Configure EC2 as self-hosted runner:
     setting>actions>runner>new self hosted runner> choose os>
-    - then run command one by one on EC2 Terminal 
+
+* then run command one by one on EC2 Terminal 
 
 
 # 7. Setup github secrets:
@@ -124,8 +108,6 @@ newgrp docker
    - AWS_SECRET_ACCESS_KEY
    - AWS_DEFAULT_REGION
    - ECR_REPO (URI or repo name)
-
-
 
 
 
