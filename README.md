@@ -3,6 +3,15 @@
 - Anaconda installation 
 
 
+# Workflow:
+
+constants
+entity
+components
+pipeline
+Main file
+
+
 
 
 
