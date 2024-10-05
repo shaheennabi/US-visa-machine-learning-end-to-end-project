@@ -5,7 +5,7 @@ In this project we have implemented end-to-end machine learning project named: U
 
 
 # If you want to run It  
-### Export the  environment variable(git bash)
+
 ```bash
 conda create -n visa python=3.8 -y
 
@@ -16,6 +16,9 @@ conda activate visa
 ```bash
 pip install -r requirements.txt
 ```
+
+
+### Export the  environment variable(git bash)
 
 # Workflow
 After creating project template
