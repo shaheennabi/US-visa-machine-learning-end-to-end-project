@@ -46,7 +46,7 @@ DATA_INGESTION_TRAIN_TEST_SPLIT_RATIO: float = 0.2
 
 
 """
-Data Validation realted contant start with DATA_VALIDATION VAR NAME
+Data Validation realted constant start with DATA_VALIDATION VAR NAME
 """
 DATA_VALIDATION_DIR_NAME: str = "data_validation"
 DATA_VALIDATION_DRIFT_REPORT_DIR: str = "drift_report"
