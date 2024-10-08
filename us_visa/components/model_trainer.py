@@ -19,8 +19,8 @@ class ModelTrainer:
     def __init__(self, data_transformation_artifact: DataTransformationArtifact,
                  model_trainer_config: ModelTrainerConfig):
         """
-        :param data_ingestion_artifact: Output reference of data ingestion artifact stage
-        :param data_transformation_config: Configuration for data transformation
+        :param data_transformation_artifact: Output reference of data transformation artifact stage
+        :param ModelTrainer_config: Configuration for Model Trainer
         """
         self.data_transformation_artifact = data_transformation_artifact
         self.model_trainer_config = model_trainer_config
