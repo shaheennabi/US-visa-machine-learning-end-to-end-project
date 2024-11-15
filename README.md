@@ -1,10 +1,13 @@
-# US_VISA End-to-End Machine Learning project with Evidently AI
+# 🎇 US_VISA End-to-End Machine Learning Project with Evidently AI 🎇
 
-In this project we have implemented end-to-end machine learning project named: US_VISA, we got the dataset from kaggle and we used MongoDB for storing and retreiving data, later we build entire pipeline like Data Ingestion, Data Validation, Data Transformation, Data Trainer, Data Evaluation, Data Pusher, Prediction pipeline etc, and we used EvidentlyAI to detect data drift and we used Github Actions to automate entire pipeline. We containerized the project with Docker and later used some AWS services like AWS S3 Bucket, AWS ECR, AWS EC2, for storing and retraining model, storing Docker image and running entire project respectively. 
+In this project we have implemented end-to-end machine learning project named: US_VISA, we got the dataset from kaggle and we used MongoDB for storing and retreiving data, later we build entire pipeline like Data Ingestion, Data Validation, Data Transformation, Data Trainer, Data Evaluation, Data Pusher, Prediction pipeline etc, and we used EvidentlyAI to detect data drift and we used Github Actions to automate entire pipeline. We containerized the project with Docker and later used some AWS services like AWS S3 Bucket, AWS ECR, AWS EC2, for storing and retraining model, storing Docker image and running entire project respectively. 🎉🚀
 
+---
 
+## 🎉 How to Run
 
-# If you want to run It  
+To run this project, keep the original content unchanged. 🌟
+
 
 ```bash
 conda create -n visa python=3.8 -y
