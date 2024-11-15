@@ -23,12 +23,15 @@ pip install -r requirements.txt
 
 ### Export the  environment variable(git bash)
 
-# Workflow
-After creating project template
- * Update constants 
- * Update Entiry modules
- * Update respective component
- * Update pipeline
+# 🎆 Workflow 🎆
+
+After creating the project template:  
+✨ * Update **constants**  
+✨ * Update **Entity modules**  
+✨ * Update respective **component**  
+✨ * Update the **pipeline**
+
+---
 
  # AWS-CICD-Deployment-with-Github-Actions
 
