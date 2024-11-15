@@ -111,16 +111,18 @@ newgrp docker
 * then run command one by one on EC2 Terminal 
 
 
-# 7. Setup github secrets:
+# 🎇 7. Setup GitHub Secrets 🎇  
 
-   - AWS_ACCESS_KEY_ID
-   - AWS_SECRET_ACCESS_KEY
-   - AWS_DEFAULT_REGION
-   - ECR_REPO (URI or repo name)
+To configure GitHub Actions for deployment, set the following secrets in your GitHub repository:  
+🌟 **Secrets**:
+- 🔑 **AWS_ACCESS_KEY_ID**
+- 🔑 **AWS_SECRET_ACCESS_KEY**
+- 🌍 **AWS_DEFAULT_REGION**
+- 🐳 **ECR_REPO** (URI or repository name)
 
+---
 
-
-# Project Tree Structure
+# 🎉 Project Tree Structure 🎉
 ```bash
 .
 └── US-VISA-MACHINE-LEARNING-END-TO-END-PROJECT/
